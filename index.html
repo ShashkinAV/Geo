@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+	<title>GeoLoftschool</title>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700,900&display=swap&subset=cyrillic,cyrillic-ext" rel="stylesheet">
+	<!--  CSS -->
+	<link rel="stylesheet" href="css/style.css">
+	<script src="https://api-maps.yandex.ru/2.1/?apikey=41471a13-0a9d-435b-a672-5283c78ab27a&lang=ru_RU" type="text/javascript"></script>
+  </head>
+  <body>
+	<div id="map"></div> 
+
+	<div class="modal">
+		<div class="modal__header">
+			<div class="modal__address"><img src="img/small_map.png" alt="Адресс марки" class="img__map">ул. Чкалова 96 д. 8 б</div>
+			<button class="modal__close"><img src="img/close.png" alt="Закрыть отзыв" class="img__close"></button>
+		</div>
+		<div class="modal__comments">Отзыва пока нет...</div>
+		<hr class="modal__line">
+		<h3 class="form__title"> Ваш отзыв</h3>
+		<form class="modal__form">
+			<input type="text" class="form__name" placeholder="Ваше имя">
+			<input type="text" class="form__place" placeholder="Укажите место">
+			<textarea name="text" cols="42" rows="5" class="form__text" placeholder="Поделитесь впечатлениями"></textarea>
+			<button type="button" class="form__btn">Добавить</button>
+		</form>
+	</div>
+
+	<!-- Optional JavaScript -->
+	<script src="js/index.js"></script>
+  </body>
+</html>
